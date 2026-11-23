@@ -1,26 +1,56 @@
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">	
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  	<title>Dor Ben Dov</title>
-	
-	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
-	<link href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" rel="stylesheet">
-	
+	<title>Dor Ben Dov – AI & Platform Architect</title>
+	<meta name="description" content="Dor Ben Dov – AI & Platform Architect. Kubernetes, multi-cloud and Generative AI.">
+	<meta name="author" content="Dor Ben Dov">
+
+	<!-- Link previews (LinkedIn, WhatsApp, X) -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://doribd.github.io/">
+	<meta property="og:title" content="Dor Ben Dov – AI & Platform Architect">
+	<meta property="og:description" content="Kubernetes · Multi-Cloud · Generative AI">
+	<meta name="twitter:card" content="summary">
+
+	<!-- Favicon: simple "D" badge, no extra file needed -->
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23444'/><text x='50' y='70' font-size='60' text-anchor='middle' fill='white' font-family='Arial'>D</text></svg>">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" href="grey-white.css">	
+	<link rel="stylesheet" href="grey-white.css">
+
+	<!-- Layout safety net: keeps the page centered and sized even if styles.css doesn't load -->
+	<style>
+		html { font-family: 'Roboto', sans-serif; font-size: 16px; }
+		@media (min-width: 992px) { html { font-size: 18px; } }
+		@media (min-width: 1200px) { html { font-size: 20px; } }
+		main {
+			display: flex; flex-direction: column;
+			justify-content: center; align-items: center;
+			min-height: 100vh; padding: 0 30px; text-align: center;
+		}
+		main > .intro { font-family: 'Reem Kufi', sans-serif; font-size: 3.75em; font-weight: 600; }
+		main > .tagline { font-size: 1.5rem; margin: 1.5rem 0; font-weight: 300; }
+		.icons-social a { color: inherit; text-decoration: none; }
+		.icons-social i { font-size: 3em; padding: 10px; }
+	</style>
 </head>
 <body>
 	<main>
 		<div class="intro">Hi, I'm Dor Ben Dov</div>
-		<div class="tagline"> ChatGPT | Generative-AI | Product | SW Architect | Technology enthusiast | Research, Innovation, Entrepreneur, Startups | Public/Private Cloud</div>
-		<div class="icons-social">
-			<a target="_blank" href="https://github.com/doribd"><i class="fab fa-github"></i></a>
-			<a target="_blank" href="https://x.com/dorbendov"><i class="fab fa-twitter"></i></a>
-			<a target="_blank" href="https://www.linkedin.com/in/dorbendov/"><i class="fab fa-linkedin"></i></a>
-			<a target="_blank" href="https://dorbd.medium.com/about"><i class="fab fa-medium"></i></a>			
-    		</div>
+		<div class="tagline">AI &amp; Platform Architect · Kubernetes · Multi-Cloud · Generative AI</div>
+		<nav class="icons-social" aria-label="Social profiles">
+			<a target="_blank" rel="noopener" aria-label="GitHub" href="https://github.com/doribd"><i class="fa-brands fa-github"></i></a>
+			<a target="_blank" rel="noopener" aria-label="X (Twitter)" href="https://x.com/dorbendov"><i class="fa-brands fa-x-twitter"></i></a>
+			<a target="_blank" rel="noopener" aria-label="LinkedIn" href="https://www.linkedin.com/in/dorbendov/"><i class="fa-brands fa-linkedin"></i></a>
+			<a target="_blank" rel="noopener" aria-label="Medium" href="https://dorbd.medium.com/about"><i class="fa-brands fa-medium"></i></a>
+		</nav>
 	</main>
 </body>
 </html>
